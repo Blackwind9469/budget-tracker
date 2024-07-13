@@ -80,6 +80,7 @@ h4 {
 }
 .p-4 {
   text-align: center;
+  background-color: cornsilk;
 }
 .guest {
   text-align: center;
@@ -226,16 +227,19 @@ input[type='number'] {
   margin-left: 40px;
   margin-right: 40px;
 }
+
 .list {
   list-style-type: none;
   padding: 20;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
+  max-height: 240px;
+  overflow-y: auto;
 }
 
 .list li {
-  background-color: #fff;
+  background-color: #f2f2f2;
   box-shadow: var(--box-shadow);
   color: #333;
   display: flex;
@@ -245,6 +249,9 @@ input[type='number'] {
   margin-left: 10px;
   margin-right: 20px; 
 }
+.list li:nth-child(even) {
+  background-color: #ffffff; /* White background color for even-numbered items */
+  }
 
 .list li.plus {
   border-right: 5px solid #2ecc71;

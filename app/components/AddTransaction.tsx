@@ -47,7 +47,7 @@ const AddTransaction = () => {
                         id="amount"
                         type="number"
                         name="amount"
-                        placeholder="Amount"
+                        placeholder="Amount / First, put a (-) for expense"
                         step="0.01"
                     />
                     <p className="expin">
